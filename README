@@ -1,0 +1,20 @@
+本项目要实现的功能：横向滚动列表、多个列表的item之间互相拖动交换数据。
+
+已经实现的功能：采用在HorizonalScrollView里面嵌套GridView实现了横向滑动列表，在同一个列表中实现了拖动。
+
+未实现的功能：在拖动item的时候无法进行左右滑动，多个列表之间的拖动也未实现
+
+遇到的困难：
+
+  1、在HorizonalScrollView里面嵌套GridView，HorizonalScrollView滑动和gridView item拖动有冲突，目前还无法同时满足。
+
+Demo 操作方式：
+
+ 进入界面会有个横向滚动的列表，长按其中一个item，当感到震动的时候就可以拖动了
+
+备注：
+
+在lenovo s820E机型上（android4.1版本）进行测试，无异常出现。
+
+
+  

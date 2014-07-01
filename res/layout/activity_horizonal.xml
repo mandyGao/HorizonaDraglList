@@ -3,6 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
     android:id="@+id/horizonal"
+    android:background="#ffff00"
     android:scrollbars="none" >
 
     <LinearLayout
@@ -10,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="horizontal" >
 
-        <com.example.horizonal.DragGridView
+        <GridView
             android:id="@+id/gridview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -22,7 +23,7 @@
             android:numColumns="3"
             android:stretchMode="none"
                       >
-        </com.example.horizonal.DragGridView>
+        </GridView>
     </LinearLayout>
 
 </com.example.horizonal.CustomHorizonalView>
